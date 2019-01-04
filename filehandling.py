@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 #Objective of the program is to copy a file or move a file or delete a file and to log the data.
 #we have used several input calls to create a user friendly code as well as environment. 
 #The code focuses on the response given by the user for whether to delete a file , copy a file or even move a file to another directory.
