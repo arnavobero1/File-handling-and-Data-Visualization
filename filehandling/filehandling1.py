@@ -37,7 +37,7 @@ if function == 1:
     location_to_transfer_to = input(" Enter the location to copy to : ") 
 
     #Program is copying the file to another location and logging.
-    os.popen("xcopy {} {}".format(filepath,location_to_transfer_to))
+    os.system("copy {} {}".format(filepath,location_to_transfer_to))
     print('The file - {} is now copied to the location - {} '.format(filepath,location_to_transfer_to))
 
     #The log file is created or appended here with the same message as in print
@@ -56,7 +56,7 @@ elif function == 2:
     destfolder = input("Enter the location to transfer to : ")
         
     #Program is moving the file from one folder to another and logging.
-    os.popen("move {} {}".format(filepath,destfolder))
+    os.system("move {} {}".format(filepath,destfolder))
     print.info('The file - {} is now moved to the location - {} '.format(filepath,destfolder))
 
     #The log file is created or appended here with the same message as in print 
@@ -76,7 +76,7 @@ elif function == 3:
     filelocation = 'deleted'
         
     #Program is deleting the file from the location location and logging.
-    os.popen(" DEL /A {} ".format(file_to_delete))
+    os.system(" DEL /A {} ".format(file_to_delete))
     print('The file- {} is now deleted '.format(filepath))
 
     #The log file is created or appended here with the same message as in print 
