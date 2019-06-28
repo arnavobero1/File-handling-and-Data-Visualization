@@ -1,0 +1,1 @@
+Although char is designed to hold Unicode characters , it can also be thought of as an integer type on which you can perform arithmetic operations  
